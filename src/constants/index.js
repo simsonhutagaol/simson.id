@@ -198,6 +198,6 @@ export const projects = [
     name: "Tekfone",
     description:
       "Tekfone is a web application focused on branded merchandise. It consists of a public website for users and a Content Management System (CMS).",
-    link: "https://github.com/adrianhajdin/projects_realestate",
+    link: "https://github.com/simsonhutagaol/Public-CMS",
   },
 ];
