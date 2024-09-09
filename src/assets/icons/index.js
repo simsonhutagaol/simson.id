@@ -30,7 +30,14 @@ import postgresql from "./postgresql.svg";
 import graphql from "./graphql.svg";
 import vue from "./vue.svg";
 import rest_api from "./rest-api.svg";
+import bootstrap from "./bootstrap.svg";
+import angular from "./angular.svg";
+import gcp from "./gcp.svg";
+import sequelize from "./sequelize.svg";
+
 export {
+  sequelize,
+  bootstrap,
   rest_api,
   vue,
   css,
@@ -63,4 +70,6 @@ export {
   soundoff,
   postgresql,
   graphql,
+  angular,
+  gcp,
 };

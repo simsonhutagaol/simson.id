@@ -19,17 +19,36 @@ import {
   graphql,
   vue,
   rest_api,
+  bootstrap,
+  angular,
+  gcp,
+  sequelize,
 } from "../assets/icons";
 
 export const skills = [
   {
-    imageUrl: postgresql,
-    name: "PostgreSQL",
-    type: "Database",
+    imageUrl: html,
+    name: "HTML",
+    type: "Frontend",
   },
   {
     imageUrl: css,
     name: "CSS",
+    type: "Frontend",
+  },
+  {
+    imageUrl: javascript,
+    name: "JavaScript",
+    type: "language",
+  },
+  {
+    imageUrl: nodejs,
+    name: "Node.js",
+    type: "Backend",
+  },
+  {
+    imageUrl: typescript,
+    name: "TypeScript",
     type: "Frontend",
   },
   {
@@ -48,19 +67,24 @@ export const skills = [
     type: "Version Control",
   },
   {
-    imageUrl: html,
-    name: "HTML",
-    type: "Frontend",
-  },
-  {
-    imageUrl: javascript,
-    name: "JavaScript",
-    type: "Frontend",
-  },
-  {
     imageUrl: mongodb,
     name: "MongoDB",
     type: "Database",
+  },
+  {
+    imageUrl: postgresql,
+    name: "PostgreSQL",
+    type: "Database",
+  },
+  {
+    imageUrl: sequelize,
+    name: "Sequelize",
+    type: "ORM",
+  },
+  {
+    imageUrl: react,
+    name: "React",
+    type: "Frontend",
   },
   {
     imageUrl: nextjs,
@@ -68,13 +92,13 @@ export const skills = [
     type: "Frontend",
   },
   {
-    imageUrl: nodejs,
-    name: "Node.js",
-    type: "Backend",
+    imageUrl: vue,
+    name: "Vue",
+    type: "Frontend",
   },
   {
-    imageUrl: react,
-    name: "React",
+    imageUrl: angular,
+    name: "Angular",
     type: "Frontend",
   },
   {
@@ -88,9 +112,14 @@ export const skills = [
     type: "Frontend",
   },
   {
-    imageUrl: typescript,
-    name: "TypeScript",
+    imageUrl: bootstrap,
+    name: "bootstrap",
     type: "Frontend",
+  },
+  {
+    imageUrl: rest_api,
+    name: "REST API",
+    type: "API",
   },
   {
     imageUrl: graphql,
@@ -98,14 +127,9 @@ export const skills = [
     type: "API",
   },
   {
-    imageUrl: vue,
-    name: "Vue",
-    type: "Frontend",
-  },
-  {
-    imageUrl: rest_api,
-    name: "REST API",
-    type: "API",
+    imageUrl: gcp,
+    name: "Google Cloud Platform",
+    type: "Cloud",
   },
 ];
 
