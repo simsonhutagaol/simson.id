@@ -1,17 +1,7 @@
+import { denki, sajo, forage } from "../assets/images";
 import {
-  meta,
-  shopify,
-  starbucks,
-  tesla,
-  denki,
-  sajo,
-  forage,
-} from "../assets/images";
-import {
-  car,
   contact,
   css,
-  estate,
   express,
   git,
   github,
@@ -19,22 +9,24 @@ import {
   javascript,
   linkedin,
   mongodb,
-  motion,
-  mui,
   nextjs,
   nodejs,
-  pricewise,
   react,
   redux,
-  sass,
-  snapgram,
-  summiz,
   tailwindcss,
-  threads,
   typescript,
+  postgresql,
+  graphql,
+  vue,
+  rest_api,
 } from "../assets/icons";
 
 export const skills = [
+  {
+    imageUrl: postgresql,
+    name: "PostgreSQL",
+    type: "Database",
+  },
   {
     imageUrl: css,
     name: "CSS",
@@ -99,6 +91,21 @@ export const skills = [
     imageUrl: typescript,
     name: "TypeScript",
     type: "Frontend",
+  },
+  {
+    imageUrl: graphql,
+    name: "GraphQL",
+    type: "API",
+  },
+  {
+    imageUrl: vue,
+    name: "Vue",
+    type: "Frontend",
+  },
+  {
+    imageUrl: rest_api,
+    name: "REST API",
+    type: "API",
   },
 ];
 
@@ -199,5 +206,13 @@ export const projects = [
     description:
       "Tekfone is a web application focused on branded merchandise. It consists of a public website for users and a Content Management System (CMS).",
     link: "https://github.com/simsonhutagaol/Public-CMS",
+  },
+  {
+    // iconUrl: estate,
+    theme: "btn-back-blue",
+    name: "Schedule",
+    description:
+      "Schedule App is a straightforward todo list application that helps you manage your tasks efficiently.",
+    link: "https://schedule.simson.id/",
   },
 ];
